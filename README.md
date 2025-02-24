@@ -1,8 +1,5 @@
 # wdd 130 Curriculum Map
 
-
-
-
 <table>
     <tr>
     <th>Stage</th>
@@ -56,6 +53,3 @@
     </tr>
 </table>
 
-<ul>
-<li>Hello</li>
-</ul>
