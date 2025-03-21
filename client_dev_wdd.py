@@ -1,3 +1,9 @@
+# This program is used to organize a class into clients and 3 person dev teams
+# Give the assign_clients_and_developers() function a list of the names of your students
+# and it will assign everyone as a client, a developer lead, and a two other dev teams.
+# Or, give the function the number of students and it will organize the assignments with
+# generic student names (student 1, student 2, etc.)
+
 import pandas as pd
 import random
 
@@ -71,4 +77,7 @@ example_students_list = ["Albert Allen",
                          "Yolanda Yurt",
                          "Zander Zacharias"]
 df = assign_clients_and_developers(students=example_students_list)
+print(df)
+
+df = assign_clients_and_developers(35)
 print(df)
