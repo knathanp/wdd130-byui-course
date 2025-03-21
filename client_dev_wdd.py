@@ -40,9 +40,35 @@ def assign_clients_and_developers(num_students=35, students=None):
     # Create DataFrame
     #pd.DataFrame(assignments, columns=["Client", "Lead Developer", "Developer 2", "Developer 3"]).to_csv('output_client_dev_wdd130.csv', index=False)
     df = pd.DataFrame(assignments, columns=["Client", "Lead Developer", "Developer 2", "Developer 3"])
+    df.index = range(1, len(df) + 1)
     return df
 
 # Example usage:
-example_students_list = ["Albert Allen", "Bob Barker", "Carl Calzone", "David Dodson", "Erwin Engles", "Faith Findle", "Gerty Garland", "Howard Hughes", "Ichi Ipson", "Jacob Johnson", "Karl Knight", "Luey Lewis", "Manford Mann", "Nelson Norton", "Oscar Oswald", "Patsy Peterson", "Quinn Quizlton", "Rob Rymer", "Sandra Silverton"]
+example_students_list = ["Albert Allen", 
+                         "Bob Barker", 
+                         "Carl Calzone", 
+                         "David Dodson", 
+                         "Erwin Engles", 
+                         "Faith Findle", 
+                         "Gerty Garland", 
+                         "Howard Hughes", 
+                         "Ichi Ipson", 
+                         "Jacob Johnson", 
+                         "Karl Knight", 
+                         "Luey Lewis", 
+                         "Manford Mann", 
+                         "Nelson Norton", 
+                         "Oscar Oswald", 
+                         "Patsy Peterson", 
+                         "Quinn Quizlton", 
+                         "Rob Rymer", 
+                         "Sandra Silverton",
+                         "Terry Thompson",
+                         "Ulysses Underwood",
+                         "Victor Valdez",
+                         "Wally Winchester",
+                         "Xavier Xanadu",
+                         "Yolanda Yurt",
+                         "Zander Zacharias"]
 df = assign_clients_and_developers(students=example_students_list)
 print(df)
