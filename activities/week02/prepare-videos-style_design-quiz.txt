@@ -1,0 +1,140 @@
+
+1. What is the main purpose of comments in HTML and CSS?
+A. To add more style to a webpage
+B. To help users interact with the site
+C. To clarify code for developers and block out code during development
+D. To improve the performance of the website
+Answer: C
+
+2. How do you start a comment in HTML?
+A. /* Comment */
+B. <!-- Comment -->
+C. // Comment
+D. # Comment
+Answer: B
+
+3. Which symbols denote a comment in CSS?
+A. <!-- -->
+B. // //
+C. /**/
+D. ()
+Answer: C
+
+4. What is a selector in CSS?
+A. A tag that runs JavaScript
+B. A rule to assign colors
+C. The element being styled
+D. The name of a CSS file
+Answer: C
+
+5. Which declaration changes the font used for an entire webpage?
+A. text-style: Arial;
+B. typeface: Arial;
+C. font-family: Arial;
+D. font: Arial;
+Answer: C
+
+6. What symbol ends each declaration in CSS?
+A. Colon (:)
+B. Comma (,)
+C. Period (.)
+D. Semicolon (;)
+Answer: D
+
+7. What is inheritance in CSS?
+A. Overriding styles
+B. Copying code from HTML
+C. Passing styles from parent to child elements
+D. Embedding CSS inside HTML
+Answer: C
+
+8. Which type of CSS takes the highest precedence?
+A. External
+B. Embedded
+C. Inline
+D. Universal
+Answer: C
+
+9. What does the background-color property do?
+A. Changes font style
+B. Changes the color of an element's background
+C. Adds borders
+D. Changes text alignment
+Answer: B
+
+10. What is the purpose of using multiple font names in font-family?
+A. To make the font look bold
+B. To ensure fallback options in case the first is unavailable
+C. To make the text underline
+D. To change font color
+Answer: B
+
+11. What must you do if a font name has spaces in it?
+A. Nothing special
+B. Use all caps
+C. Put it in quotes
+D. Add a semicolon
+Answer: C
+
+12. What does the @import rule in CSS do?
+A. Adds JavaScript functionality
+B. Imports a web page
+C. Links external fonts or stylesheets
+D. Adds a new HTML element
+Answer: C
+
+13. What does the hex code #FF0000 represent?
+A. White
+B. Green
+C. Red
+D. Black
+Answer: C
+
+14. What range of values is used in RGB color codes?
+A. 1 to 100
+B. 0 to 255
+C. 0 to 1
+D. 0 to 999
+Answer: B
+
+15. Which CSS property is used to change the size of text?
+A. font-weight
+B. text-size
+C. font-size
+D. type-size
+Answer: C
+
+16. Why is contrast important in web design?
+A. It makes pages load faster
+B. It affects text readability against backgrounds
+C. It changes how links work
+D. It reduces the need for CSS
+Answer: B
+
+17. What does a wireframe show in web design?
+A. Final colors and images
+B. HTML structure only
+C. Basic layout and structure of the page
+D. Functionality of a site
+Answer: C
+
+18. Why is wireframing useful before coding?
+A. It helps reduce code length
+B. It lets you test site speed
+C. It provides a visual layout and saves development time
+D. It replaces the need for CSS
+Answer: C
+
+19. What parts of a webpage usually remain the same on all pages?
+A. Banner and gallery
+B. Navigation and footer
+C. Product descriptions
+D. Hero image and titles
+Answer: B
+
+20. Which tools are mentioned for checking color contrast?
+A. Font Squirrel and Google Fonts
+B. contrast-ratio.com and colors.adobe.com
+C. coolors.co and FontSpace
+D. RGB tool and Contrastify
+Answer: B
