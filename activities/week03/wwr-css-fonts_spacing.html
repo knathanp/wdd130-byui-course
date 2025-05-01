@@ -5,8 +5,8 @@
   <meta charset="utf-8" />
   <title>WDD 130 | More CSS: Fonts and Spacing- Instructions</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="../css/prism-light.css" />
-  <link rel="stylesheet" href="../css/course.css" />
+  <link rel="stylesheet" href="../../css/prism-light.css" />
+  <link rel="stylesheet" href="../../css/course.css" />
 </head>
 
 <body>
@@ -22,99 +22,17 @@
 
       <hr />
       <h2>Activity Directions</h2>
-      <p>Estimated Time: 45 minutes</p>
-      <div class="callout">
-        <p>
-          This activity will use the following new CSS concepts or properties
-          (review the links if you do not remember them):
-        </p>
-        <ul>
-          <li>
-            <a href="http://www.w3schools.com/css/css_font.asp" target="_blank">CSS Fonts</a>
-          </li>
-          <li>
-            <a href="http://www.w3schools.com/css/css_boxmodel.asp" target="_blank">CSS Box Model</a>
-          </li>
-          <li>
-            <a href="http://www.w3schools.com/css/css_padding.asp" target="_blank">CSS Padding</a>
-          </li>
-          <li>
-            <a href="https://www.w3schools.com/css/css_margin.asp" target="_blank">CSS Margin</a>
-          </li>
-          <li>
-            <a href="https://www.w3schools.com/css/css_border.asp" target="_blank">CSS Borders</a>
-          </li>
-          <li>
-            <a href="https://www.w3schools.com/css/css3_borders.asp" target="_blank">CSS Rounded Corners</a>
-          </li>
-          <li>
-            <a href="https://www.w3schools.com/css/css3_box-sizing.asp" target="_blank">CSS Box Sizing</a>
-          </li>
-        </ul>
-      </div>
-      <div class="callout">
-        <p>
-          Nothing makes a webpage feel like more of a product and less of a
-          project than changing from the default fonts. You should have chosen
-          one or two fonts when you were putting the site plan together for
-          your site. Go review that now.
-        </p>
-        <p>
-          If you chose fonts from among the
-          <a href="http://www.w3schools.com/cssref/css_websafe_fonts.asp" target="_blank">web-safe list</a>&nbsp;then
-          you can use them in the <kbd>font-family</kbd> property without
-          <kbd>@import</kbd>. (Here is another list of the web-safe fonts:&nbsp;
-          <a href="http://www.cssfontstack.com/" target="_blank">http://www.cssfontstack.com/</a>)
-        </p>
-        <p>
-          If you chose fonts from Google Fonts or elsewhere, then we have to
-          make the font available to the web page first before we can use
-          them.
-        </p>
-        <p>
-          No matter which fonts you are using, it is standard practice to
-          list fall-back fonts in case, for some reason, your first
-          choice doesn't work correctly, you can control how it degrades.
-          With those fall-back fonts, the second choice should be similar to your first (and usually
-          web-safe), the third font in the list should usually be one of the
-          default font families (serif, sans-serif, fantasy, monospace, or
-          script).
-        </p>
-        <p>
-          For example, if I chose Helvetica as my font for body copy, I
-          would add something like
-          <kbd>font-family: Helvetica, Arial, sans-serif;</kbd> to a rule
-          modifying the <kbd>body</kbd> of my page.
-        </p>
-        <p>
-          If, however, I wanted to use the font Rock Salt for my headlines,
-          that is not a web safe font and will probably not be on most
-          computers, I have to do an extra step to make it available.
-        </p>
-        <p>
-          Google Fonts makes it very easy to add your fonts. Review the font
-          information from when you picked them in your site plan. Here's the
-          <a target="_blank" href="https://youtu.be/WWvX72ZPnMU">video </a> showing how we
-          found them on Google Fonts and copied the <kbd>@import</kbd> statement. Or you
-          can always use the same <kbd>@import</kbd> you had in the site-plan-rafting.css
-          for the style.css.
-        </p>
-        <p>
-          The <kbd>@import</kbd> always goes at the very top of your CSS file, and then
-          you can use that font just like normal, ie:&nbsp;
-          <kbd>font-family: 'Rock Salt', 'Bradley Hand', sans-serif;</kbd>
-        </p>
-      </div>
+      
       <ol class="bigSteps">
         <li>
           <!-- START STEP -->
           <h3>Change your Body and headline fonts</h3>
           <p>
             Based on your font choices from your site plan, add the
-            appropriate&nbsp; <kbd>font-family:</kbd> and&nbsp;
-            <kbd>@import</kbd>&nbsp;. The <kbd>@import</kbd> will go at the very top of
-            your CSS. Use the <kbd>font-family</kbd> property to change the body font and
-            headline font on your webpage. Add at least two back-up fonts for each as well. The <kbd>.home-title</kbd> or maybe the <kbd>.msg
+            appropriate&nbsp; <kbd>font-family</kbd>.
+             Use the <kbd>font-family</kbd> property to change the body font and
+            headline font on your webpage. Add at least two fonts for each as well.
+            The <kbd>.home-title</kbd> or maybe the <kbd>.msg
               h2</kbd> selector might look good with the headline font you chose.
           </p>
           <div class="callout">
@@ -277,7 +195,7 @@ nav a {
             like it's working on the bottom. We will resolve this when we
             layout the page later.
           </p>
-          <img src="https://byui-wdd.github.io/wdd130/rafting_images/padding-margin.png" alt="sample html home page" />
+          <img src="../../rafting_images/padding-margin.png" alt="sample html home page" />
         </div>
         <li>
           <!-- START STEP -->
@@ -342,7 +260,7 @@ main section img {
             Your page still won't look like our wireframe layout, but the
             spacing is much better. It will look something like this:
           </p>
-          <img src="https://byui-wdd.github.io/wdd130/rafting_images/margin_padding_homepage.jpg"
+          <img src="../../rafting_images/margin_padding_homepage.jpg"
             alt="sample html home page" style="width: 60%" />
           <!-- END STEP  -->
         </li>
