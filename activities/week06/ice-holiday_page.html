@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <title>ICE Challenge: Holiday Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../../css/prism-light.css" />
+    <link rel="stylesheet" href="../../css/course.css" />
+    <style>
+        #halloween, #valentines, #fathersday {
+            display: none;
+        }
+    </style>
+  </head>
+
+  <body>
+    <div id="content">
+      <header class="headerBanner">
+        <div>
+          <h1><span>WEB</span> Fundamentals</h1>
+          <h2>WDD 130</h2>
+        </div>
+      </header>
+      <main>
+        <h1>ICE Challenge: Holiday Page</h1>
+        <hr />
+        <h2><strong>Overview</strong></h2>
+        <ul>
+            <li>Task: Style the given html for the holiday.</li>
+            <li>Purpose: Practice designing css without changing the html.</li>
+        </ul>
+        
+        <h2><strong>Instructions</strong></h2>
+        <ol class="bigSteps">
+          <li>
+            <!-- START STEP -->
+            <h2>Open the files</h2>
+            <ul id="halloween">
+              <li><h3>Download the starter files</h3>
+              Start by downloading the zip file: <a href="../../ice/halloween.zip">Halloween Page</a> 
+              and unzipping it and saving the halloween folder in your <kbd>ice</kbd> folder</li>
+              <li><h3>Open in VS Code</h3>
+              Open the <kbd>halloween</kbd> folder in VS Code, then locate index.html and open to edit.</li>
+            </ul>
+            <ul id="valentines">
+              <li><h3>Download the starter files</h3>
+              Start by downloading the zip file: <a href="../../ice/valentines.zip">Valentines Page</a> 
+              and unzipping it and saving the valentines folder in your <kbd>ice</kbd> folder</li>
+              <li><h3>Open in VS Code</h3>
+              Open the <kbd>valentines</kbd> folder in VS Code, then locate index.html and open to edit.</li>
+            </ul>
+            <ul id="fathersday">
+              <li><h3>Download the starter files</h3>
+              Start by downloading the zip file: <a href="../../ice/fathersday.zip">Father's Day Page</a> 
+              and unzipping it and saving the fathersday folder in your <kbd>ice</kbd> folder</li>
+              <li><h3>Open in VS Code</h3>
+              Open the <kbd>fathersday</kbd> folder in VS Code, then locate index.html and open to edit.</li>
+            </ul>
+              
+            <!-- END STEP -->
+          </li>
+          
+          <li>
+            <!-- START STEP -->
+            <h2>Style the page</h2>
+            <ul>
+              <li><h3>Write the CSS, but don't change the HTML!</h3>
+              Take the given HTML code and add your own css to color it and style the page to 
+              make it styled for the holiday.
+              Have some fun, everyone's should look very different even
+               though we are all using the same HTML code.</li>
+            </ul>
+
+            
+            <!-- END STEP -->
+          </li>
+
+          <li>
+            <!-- START STEP -->
+            <h2>Submit</h2>
+            <p>Compress your completed folder and submit the zip file</p>
+            
+            <!-- END STEP -->
+          </li>
+
+          <script>
+            const currentMonth = new Date().getMonth();
+            const winter = [1, 2, 3]; // February March April
+            const spring = [4, 5, 6]; // May June and July
+            const fall = [8, 9, 10, 11]; // Sep Oct Nov Dec
+
+
+            if (winter.includes(currentMonth)) {
+            document.getElementById('valentines').style.display = 'block';
+            }
+            if (spring.includes(currentMonth)) {
+            document.getElementById('fathersday').style.display = 'block';
+            }
+            if (fall.includes(currentMonth)) {
+            document.getElementById('halloween').style.display = 'block';
+            }
+          </script>
+      </main>
+      <!-- end #article -->
+    </div>
+    <script src="../../js/course.js"></script>
+    <script src="../../js/prism.js"></script>
+  </body>
+</html>
