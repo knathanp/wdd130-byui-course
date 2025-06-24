@@ -76,8 +76,24 @@ example_students_list = ["Albert Allen",
                          "Xavier Xanadu",
                          "Yolanda Yurt",
                          "Zander Zacharias"]
-df = assign_clients_and_developers(students=example_students_list)
-print(df)
+# df = assign_clients_and_developers(students=example_students_list)
+# print(df)
 
-df = assign_clients_and_developers(35)
-print(df)
+file_students_list = []
+with open("students_list_sp25_1.txt", "r") as student_file:
+    for student in student_file:
+        file_students_list.append(student.strip())
+    print(file_students_list)
+    df = assign_clients_and_developers(students=file_students_list)
+    print(df)
+
+file_students_list = []
+with open("students_list_sp25_2.txt", "r") as student_file:
+    for student in student_file:
+        file_students_list.append(student.strip())
+    print(file_students_list)
+    df = assign_clients_and_developers(students=file_students_list)
+    print(df)
+
+
+# df = assign_clients_and_developers(35)
