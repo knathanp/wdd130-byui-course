@@ -8,46 +8,48 @@ import pandas as pd
 import random
 
 def assign_clients_and_developers(num_students=35, students=None):
-    # Create a list of student IDs
     if not students:
         students = [f"Student {i+1}" for i in range(num_students)]
 
-    # Initialize the assignments
-    assignments = []
+    for attempt in range(100):  # Retry loop in case of failure
+        lead_devs = students.copy()
+        random.shuffle(lead_devs)
 
-    # Shuffle students for lead developer assignment
-    lead_developers = students.copy()
-    random.shuffle(lead_developers)
+        # Make sure no student is their own lead dev
+        if any(client == lead for client, lead in zip(students, lead_devs)):
+            continue  # Try a different shuffle
 
-    # Initialize a dictionary to track how many times a student has been hired
-    hired_count = {student: 0 for student in students}
+        jr_dev_counts = {s: 0 for s in students}
+        assignments = []
 
-    # Assign lead developers and additional developers
-    for i, client in enumerate(students):
-        # Lead developer is predetermined
-        lead_dev = lead_developers[i]
-        hired_count[lead_dev] += 1
+        try:
+            for i, client in enumerate(students):
+                lead_dev = lead_devs[i]
 
-        # Select 2 more developers ensuring unique and valid hires
-        possible_devs = [s for s in students if s != client and s != lead_dev and hired_count[s] < 3]
-        
-        if len(possible_devs) < 2:
-            raise ValueError("Not enough students to satisfy the constraints. Consider increasing the number of students.")
+                # Exclude client and lead_dev from Jr. Dev candidates
+                possible_jrs = [s for s in students if s != client and s != lead_dev and jr_dev_counts[s] < 2]
 
-        additional_devs = random.sample(possible_devs, 2)
+                if len(possible_jrs) < 2:
+                    raise ValueError("Not enough Jr. Developers left to assign for this client.")
 
-        # Update hired count
-        for dev in additional_devs:
-            hired_count[dev] += 1
+                jr_devs = random.sample(possible_jrs, 2)
+                for dev in jr_devs:
+                    jr_dev_counts[dev] += 1
 
-        # Record the assignment
-        assignments.append([client, lead_dev] + additional_devs)
+                assignments.append([client, lead_dev] + jr_devs)
 
-    # Create DataFrame
-    #pd.DataFrame(assignments, columns=["Client", "Lead Developer", "Developer 2", "Developer 3"]).to_csv('output_client_dev_wdd130.csv', index=False)
-    df = pd.DataFrame(assignments, columns=["Client", "Lead Developer", "Developer 2", "Developer 3"])
-    df.index = range(1, len(df) + 1)
-    return df
+            # Confirm every student is a Jr. Dev exactly twice
+            if all(count == 2 for count in jr_dev_counts.values()):
+                df = pd.DataFrame(assignments, columns=["Client", "Lead Developer", "Jr. Developer", "Jr. Developer"])
+                df.index = range(1, len(df) + 1)
+                return df
+
+        except ValueError:
+            continue
+
+    raise RuntimeError("Failed to generate a valid assignment after 100 attempts.")
+
+
 
 # Example usage:
 example_students_list = ["Albert Allen", 
@@ -76,24 +78,26 @@ example_students_list = ["Albert Allen",
                          "Xavier Xanadu",
                          "Yolanda Yurt",
                          "Zander Zacharias"]
-# df = assign_clients_and_developers(students=example_students_list)
-# print(df)
+df = assign_clients_and_developers(students=example_students_list)
+print(df)
 
-file_students_list = []
-with open("students_list_sp25_1.txt", "r") as student_file:
-    for student in student_file:
-        file_students_list.append(student.strip())
-    print(file_students_list)
-    df = assign_clients_and_developers(students=file_students_list)
-    print(df)
+# file_students_list = []
+# with open("students_list_sp25_1.txt", "r") as student_file:
+#     for student in student_file:
+#         file_students_list.append(student.strip())
+#     df = assign_clients_and_developers(students=file_students_list)
+#     print(df)
 
-file_students_list = []
-with open("students_list_sp25_2.txt", "r") as student_file:
-    for student in student_file:
-        file_students_list.append(student.strip())
-    print(file_students_list)
-    df = assign_clients_and_developers(students=file_students_list)
-    print(df)
+# file_students_list = []
+# with open("students_list_sp25_2.txt", "r") as student_file:
+#     for student in student_file:
+#         file_students_list.append(student.strip())
+#     df = assign_clients_and_developers(students=file_students_list)
+#     print(df)
 
 
-# df = assign_clients_and_developers(35)
+df = assign_clients_and_developers(32)
+print(df)
+df = assign_clients_and_developers(34)
+print(df)
+
