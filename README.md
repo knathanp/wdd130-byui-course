@@ -22,10 +22,3 @@ Growth Learning - Acorn Stages:
 1. Plant: Students use their agency to allow the acorn to be planted in the soil of their minds and hearts. They receive information from the observing the teacher, watching videos, reading reference, and studying the materials in their minds.
 2. Sprout: Students act on their acorn by nourishing it with the personal revelation that comes through trial, failure, reflection, and Improvement. Students will plan, design, and create individually. They will practice implementing the information that was planted. The teacher will be close by for support in this critical stage. The actions students take will sprout roots as a foundation of their understanding and skills.
 3. Grow: Students will start to grow up and branch out to mentor and strengthen each other. They will reach higher, spread their branches to support each other, plant seeds for others, and grow ever stronger roots as they continue to improve. Students will plan, design, and create as collaborative groups. They will teach and support each other and strengthen their understanding and abilities. The teacher will cheer them on. The world will see their work and it will be amazing.
-
-| Stage | Duration | Types of Activities |
-| --- | --- | --- |
-| Plant:<br><br>Learn content individually through reading, research, lecture, demonstration, and following examples of well-formed sites | 4 weeks | \-Instructional videos<br><br>\-Step by step tutorials<br><br>\-Industry history research<br><br>\-Guided practice<br><br>\-Defining key technologies and terms<br><br>\-Review prerequired knowledge |
-| Sprout:<br><br>Plan and create individual products. | 5 weeks | \-Page Planning<br><br>\-Site Planning<br><br>\-In Class Exercise (ICE) challenges<br><br>\-Create Pages |
-| Grow:<br><br>Each student is a client and hires a team to create their website. Each person should have multiple clients to serve. | 4 weeks | \-Collaborate with teams<br><br>\-Follow a plan as a team<br><br>\-Manage a team project<br><br>\-Practice client-developer relationship<br><br>\-Publish a final product |
-
