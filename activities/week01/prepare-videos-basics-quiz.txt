@@ -1,0 +1,143 @@
+1. What is the main protocol used for communication on the Internet?
+A) HTTP
+B) FTP
+C) TCP/IP
+D) DNS
+Answer: C) TCP/IP
+
+2. What does a web browser do when a user opens a website?
+A) It creates the website from scratch
+B) It sends a request to a server to fetch web files
+C) It only loads HTML from its own memory
+D) It generates a new IP address
+Answer: B) It sends a request to a server to fetch web files
+
+3. Which of the following is considered a front-end language?
+A) PHP
+B) Python
+C) HTML
+D) SQL
+Answer: C) HTML
+
+4. What does DNS (Domain Name System) do?
+A) It encrypts user data
+B) It stores CSS files
+C) It matches domain names to IP addresses
+D) It controls screen readers
+Answer: C) It matches domain names to IP addresses
+
+5. Why is accessibility important in web development?
+A) It makes websites faster
+B) It prevents hacking
+C) It ensures users with disabilities can use the site
+D) It reduces server costs
+Answer: C) It ensures users with disabilities can use the site
+
+6. What is the primary purpose of HTML in a web page?
+A) To add animations
+B) To structure the content of the page
+C) To store user data
+D) To style the web page
+Answer: B) To structure the content of the page
+
+7. What does HTML stand for?
+A) Hyperlink Text Machine Language
+B) Hyper Tool Markup Language
+C) Hypertext Markup Language
+D) Hypertext Machine Logic
+Answer: C) Hypertext Markup Language
+
+8. Which HTML tag contains the content that will be displayed in the browser window?
+A) <head>
+B) <html>
+C) <title>
+D) <body>
+Answer: D) <body>
+
+9. What is nesting in HTML?
+A) Writing code in uppercase
+B) Placing one tag inside another tag
+C) Adding images to a page
+D) Writing multiple paragraphs
+Answer: B) Placing one tag inside another tag
+
+10. What is the purpose of the <title> tag in HTML?
+A) It displays the main heading on the page
+B) It sets the page's background color
+C) It shows text in the browser tab or title bar
+D) It creates a clickable link
+Answer: C) It shows text in the browser tab or title bar
+
+11. What is the difference between the <head> and <header> elements in HTML?
+A) <head> is used for navigation, <header> is used for scripts
+B) <head> displays content on the page, <header> does not
+C) <head> contains meta information, <header> contains visible content like logos and menus
+D) They are the same element
+Answer: C) <head> contains meta information, <header> contains visible content like logos and menus
+
+12. Which HTML element is typically used to contain the main navigation menu?
+A) <main>
+B) <nav>
+C) <footer>
+D) <section>
+Answer: B) <nav>
+
+13. What does the href attribute in an <a> element specify?
+A) The style of the link
+B) The target browser
+C) The web address or location to link to
+D) The name of the page
+Answer: C) The web address or location to link to
+
+14. Which of the following elements is self-closing and does not require a closing tag?
+A) <p>
+B) <img>
+C) <nav>
+D) <a>
+Answer: B) <img>
+
+15. What is meant by 'semantic' in HTML?
+A) The code follows strict syntax rules
+B) Tags are named based on how they look
+C) Tags describe the meaning or type of content they contain
+D) It refers to the language of the browser
+Answer: C) Tags describe the meaning or type of content they contain
+
+16. What does CSS stand for?
+A) Computer Style Sheets
+B) Creative Style Syntax
+C) Cascading Style Sheets
+D) Central Style System
+Answer: C) Cascading Style Sheets
+
+17. What is the main purpose of CSS?
+A) To structure web content
+B) To link pages together
+C) To style and visually design HTML elements
+D) To make the website interactive
+Answer: C) To style and visually design HTML elements
+
+18. Which of the following is the preferred way to use CSS in a website project?
+A) Inline CSS
+B) Embedded CSS
+C) External CSS file
+D) JavaScript styling
+Answer: C) External CSS file
+
+19. What HTML element is used to link an external CSS file to an HTML page?
+A) <style>
+B) <css>
+C) <script>
+D) <link>
+Answer: D) <link>
+
+20. What is one advantage of using a separate CSS file?
+A) You can only use it on one page
+B) It makes your site load slower
+C) You can style multiple pages using the same file
+D) You don't need HTML anymore
+Answer: C) You can style multiple pages using the same file
+
+
+
+

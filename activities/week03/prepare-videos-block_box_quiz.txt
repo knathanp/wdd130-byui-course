@@ -1,0 +1,167 @@
+1. Which of the following is a block-level element?
+A) <span>
+B) <a>
+C) <div>
+D) <img>
+Answer: C
+
+2. What is the default behavior of block-level elements?
+A) They appear side by side.
+B) They float to the right.
+C) They stretch to take up full width.
+D) They are hidden.
+Answer: C
+
+3. Which display value allows setting width and height while aligning inline?
+A) block
+B) inline
+C) inline-block
+D) none
+Answer: C
+
+4. How do you center an inline element's content?
+A) margin: 0 auto
+B) text-align: center
+C) display: flex
+D) position: absolute
+Answer: B
+
+5. What is the primary function of padding?
+A) Adds space outside the border
+B) Changes font size
+C) Adds space inside the element’s border
+D) Alters width
+Answer: C
+
+6. What separates padding from margin in the box model?
+A) Spacing
+B) Border
+C) Content
+D) Container
+Answer: B
+
+7. Which shorthand correctly sets padding for top, right, bottom, and left?
+A) padding: 5px 15px
+B) padding: 10px 20px 30px 40px
+C) padding: top right bottom left
+D) padding: 20px
+Answer: B
+
+8. How do you include padding and border in an element’s total width?
+A) display: inline
+B) padding-box: true
+C) box-sizing: border-box
+D) border-collapse: collapse
+Answer: C
+
+9. How is a class selector written in CSS?
+A) #classname
+B) .classname
+C) classname
+D) @classname
+Answer: B
+
+10. What is true about id selectors?
+A) Multiple elements can share an id
+B) They start with a dot in CSS
+C) Only one element should have a given id
+D) They override class selectors
+Answer: C
+
+11. Why might you use multiple class names on one element?
+A) To confuse the browser
+B) To avoid using CSS
+C) To apply multiple styles
+D) To reduce specificity
+Answer: C
+
+12. Which of the following selectors has the highest specificity?
+A) element
+B) class
+C) id
+D) universal
+Answer: C
+
+13. What does the selector "article p" target?
+A) All paragraphs
+B) Paragraphs outside article
+C) Paragraphs inside article
+D) Only the first paragraph in article
+Answer: C
+
+14. How do you target all <h1> and <h4> elements with the same rule?
+A) h1.h4
+B) h1, h4
+C) h1 h4
+D) h1 + h4
+Answer: B
+
+15. What is the pseudo-class :hover used for?
+A) Clicking links
+B) Styling focused input
+C) Changing element style when mouse is over
+D) Selecting the first child
+Answer: C
+
+16. Which of the following is an absolute unit?
+A) em
+B) %
+C) px
+D) rem
+Answer: C
+
+17. What does "vw" represent in CSS?
+A) Virtual width
+B) View width
+C) Vertical width
+D) Visible window
+Answer: B
+
+18. How much is 2em if base font size is 16px?
+A) 8px
+B) 16px
+C) 32px
+D) 24px
+Answer: C
+
+19. What should you avoid in HTML file names?
+A) Dashes
+B) Underscores
+C) Numbers at the start
+D) Lowercase letters
+Answer: C
+
+20. What is the default homepage file name in a website?
+A) homepage.html
+B) start.html
+C) index.html
+D) default.html
+Answer: C
+
+21. Which HTML tag is non-semantic?
+A) nav
+B) footer
+C) span
+D) article
+Answer: C
+
+22. Why are semantic tags preferred?
+A) They help with CSS
+B) They improve readability only
+C) They aid screen readers and SEO
+D) They render faster
+Answer: C
+
+23. What does the meta tag with viewport settings control?
+A) Link behavior
+B) Font loading
+C) Page scaling on devices
+D) Rendering engine
+Answer: C
+
+24. Which W3C tool checks HTML validity?
+A) jigsaw.w3.org
+B) validator.w3.org
+C) csscheck.com
+D) htmlcheck.org
+Answer: B

@@ -1,0 +1,36 @@
+Back-End Development Quiz
+
+1. What is the main responsibility of a back-end developer?
+A) Designing the layout and colors of a webpage
+B) Creating animations and transitions on a website
+C) Managing data and handling server-side logic
+D) Writing mobile apps for Android and iOS
+Correct Answer: C
+
+2. What is a “tech stack” in web development?
+A) A collection of fonts and color palettes used on a website
+B) The combination of web servers, programming languages, frameworks, and databases used
+C) A list of user data stored on the server
+D) A ranking system for the best programming languages
+Correct Answer: B
+
+3. Which of the following is a common responsibility of a back-end developer?
+A) Writing CSS to style web pages
+B) Setting up SQL databases and handling secure data access
+C) Creating user interfaces in HTML
+D) Editing videos and graphics for the website
+Correct Answer: B
+
+4. Which language and framework pair is correctly matched for back-end development?
+A) JavaScript – Spring
+B) Java – Django
+C) Python – Flask
+D) C# – Node.js
+Correct Answer: C
+
+5. What is the purpose of using an ORM (Object Relational Mapping) library in back-end development?
+A) To write front-end code faster
+B) To convert database records into programming objects
+C) To deploy web apps to the cloud
+D) To manage server hosting costs
+Correct Answer: B

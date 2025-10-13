@@ -1,0 +1,121 @@
+CSS and Grid Layout Quiz
+
+1. What property value starts a grid layout?
+A) display: flex
+B) display: block
+C) display: grid
+D) display: inline
+
+2. What does "explicit placement" in a grid refer to?
+A) Browser automatically placing items
+B) Developer manually placing items
+C) Random placement by CSS
+D) Positioning with float
+
+3. In a grid, the space between columns and rows is set using which property?
+A) margin
+B) grid-gap
+C) padding
+D) column-gap
+
+4. What measurement unit represents a fraction of the available space in a grid?
+A) %
+B) em
+C) fr
+D) px
+
+5. What shorthand can create five equal-width columns in a grid?
+A) 1fr 1fr 1fr 1fr 1fr
+B) repeat(5, 1fr)
+C) grid-gap(5, 1fr)
+D) auto-fill(5, 1fr)
+
+6. What is the default position value for elements in normal flow?
+A) static
+B) relative
+C) absolute
+D) fixed
+
+7. Which position value fixes an element relative to the viewport?
+A) static
+B) relative
+C) absolute
+D) fixed
+
+8. What CSS property changes the stacking order of overlapping elements?
+A) position
+B) z-index
+C) display
+D) opacity
+
+9. What layout system allows two-dimensional layout (rows and columns)?
+A) flexbox
+B) float
+C) grid
+D) table
+
+10. Which layout method is one-dimensional?
+A) grid
+B) flexbox
+C) absolute positioning
+D) static layout
+
+11. What tool lets you inspect and temporarily edit elements on a web page?
+A) Browser extensions
+B) Developer tools
+C) FTP client
+D) Code editor
+
+12. When you uncheck a CSS rule in Developer Tools, what happens?
+A) It deletes the rule from CSS file
+B) It permanently saves the change
+C) It temporarily disables it in the browser view
+D) It reorders the HTML structure
+
+13. What color-coded diagram in Developer Tools represents padding, border, and margin?
+A) Color Picker
+B) Z-Index Map
+C) Box Model
+D) Layout Grid
+
+14. What happens if you set a parent element to display: grid but don't define columns?
+A) Elements overlap
+B) Elements disappear
+C) Nothing visible changes
+D) Browser crashes
+
+15. Which property is rarely used explicitly because rows are usually added automatically?
+A) grid-template-columns
+B) grid-template-rows
+C) grid-gap
+D) align-items
+
+16. How do you center a single grid item vertically within a grid cell?
+A) align-items: center
+B) text-align: center
+C) align-self: center
+D) justify-self: center
+
+17. In grid layout, what refers to the spaces between columns and rows?
+A) Grid lines
+B) Grid tracks
+C) Grid gaps
+D) Grid frames
+
+18. What is the shortcut CSS property for setting grid start and end in one line?
+A) grid-flow
+B) grid-column
+C) column-span
+D) grid-span
+
+19. If you want a div to span from column line 1 to column line 3, what CSS do you use?
+A) grid-column: 1/2;
+B) grid-row: 1/3;
+C) grid-column: 1/3;
+D) grid-start: 1/3;
+
+20. In Chrome Developer Tools, what icon lets you simulate different device views?
+A) Color picker
+B) Device toggle icon
+C) Layout simulator
+D) Mobile generator

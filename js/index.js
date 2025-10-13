@@ -1,5 +1,5 @@
 /* Add Course Specific JavaScript Below */
-const baseUrl = 'https://byui-cit.github.io/wdd130/';
+const baseUrl = 'http://127.0.0.1:5501/';
 const localUrl = '/';
 const menu = {
   resources: [

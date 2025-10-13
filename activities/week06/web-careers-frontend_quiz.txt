@@ -1,0 +1,31 @@
+Front-End Development Basics – Multiple Choice Quiz
+
+1. What are the three core technologies every front-end developer should learn first?
+   A) Python, Java, C++
+   B) HTML, CSS, JavaScript
+   C) React, Angular, Vue
+   D) PHP, MySQL, Node.js
+
+2. What is the primary role of HTML in web development?
+   A) Adding interactivity to web pages
+   B) Styling web elements
+   C) Structuring the content of a web page
+   D) Connecting to databases
+
+3. How does CSS enhance a web page?
+   A) By creating the content
+   B) By providing structure
+   C) By handling user interactions
+   D) By styling and formatting the content
+
+4. What is the purpose of JavaScript in front-end development?
+   A) To store data in the cloud
+   B) To add interactivity and dynamic behavior to web pages
+   C) To define page layout
+   D) To handle server-side rendering
+
+5. Why is it important for front-end developers to understand how the web works?
+   A) To become back-end developers
+   B) To make video games
+   C) To optimize performance and understand how client-server communication happens
+   D) It's not necessary

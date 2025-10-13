@@ -1,0 +1,280 @@
+
+1. What does HTML stand for?
+A. Hyper Text Markup Language
+B. Home Tool Markup Language
+C. Hyperlinks and Text Markup Language
+D. Hyperlinking Text Management Language
+Answer: A
+
+2. Who is making the Web standards?
+A. Microsoft
+B. Mozilla
+C. Google
+D. The World Wide Web Consortium (W3C)
+Answer: D
+
+3. What is the correct HTML element for inserting a line break?
+A. <break>
+B. <br>
+C. <lb>
+D. <newline>
+Answer: B
+
+4. What is the correct HTML for adding a background color?
+A. <body style="background-color:yellow;">
+B. <background>yellow</background>
+C. <body bg="yellow">
+D. <bg>yellow</bg>
+Answer: A
+
+5. What is the correct HTML element for the largest heading?
+A. <heading>
+B. <h6>
+C. <head>
+D. <h1>
+Answer: D
+
+6. What is the correct HTML element to define emphasized text?
+A. <i>
+B. <italic>
+C. <em>
+D. <strong>
+Answer: C
+
+7. Which HTML element is used to specify a footer for a document or section?
+A. <bottom>
+B. <section>
+C. <footer>
+D. <foot>
+Answer: C
+
+8. What is the purpose of the alt attribute in the <img> tag?
+A. To set the image size
+B. To define image alignment
+C. To display text if the image cannot be shown
+D. To hyperlink the image
+Answer: C
+
+9. Which tag is used to define a table row?
+A. <table>
+B. <td>
+C. <tr>
+D. <th>
+Answer: C
+
+10. Which HTML tag is used to make text bold?
+A. <bold>
+B. <strong>
+C. <bld>
+D. <em>
+Answer: B
+
+11. How can you create an unordered list in HTML?
+A. <ol>
+B. <ul>
+C. <list>
+D. <dl>
+Answer: B
+
+12. What is the correct HTML for creating a hyperlink?
+A. <a>http://example.com</a>
+B. <a href="http://example.com">Link</a>
+C. <link src="http://example.com">Link</link>
+D. <hyperlink>http://example.com</hyperlink>
+Answer: B
+
+13. Which HTML tag is used to define an internal style sheet?
+A. <css>
+B. <style>
+C. <script>
+D. <styles>
+Answer: B
+
+14. What is the correct syntax for referring to an external style sheet?
+A. <link rel="stylesheet" type="text/css" href="style.css">
+B. <style src="style.css">
+C. <stylesheet>style.css</stylesheet>
+D. <css href="style.css">
+Answer: A
+
+15. Where in an HTML document is the correct place to refer to an external style sheet?
+A. At the end of the document
+B. Inside the body section
+C. Inside the head section
+D. Before the DOCTYPE declaration
+Answer: C
+
+16. Which is the correct CSS syntax?
+A. {body:color=black;}
+B. body {color: black;}
+C. body:color=black;
+D. {body;color:black;}
+Answer: B
+
+17. How do you insert a comment in a CSS file?
+A. // this is a comment
+B. /* this is a comment */
+C. <!-- this is a comment -->
+D. ** this is a comment **
+Answer: B
+
+18. Which property is used to change the background color?
+A. bgcolor
+B. background-color
+C. color
+D. background
+Answer: B
+
+19. How do you add a background image in CSS?
+A. background-image: url("image.jpg");
+B. bg-image: "image.jpg";
+C. background: "image.jpg";
+D. img-background: url("image.jpg");
+Answer: A
+
+20. Which CSS property controls the text size?
+A. text-style
+B. font-size
+C. text-size
+D. font-style
+Answer: B
+
+21. How do you make a list that lists items with numbers?
+A. <ul>
+B. <dl>
+C. <ol>
+D. <list>
+Answer: C
+
+22. Which tag is used to define a table header?
+A. <head>
+B. <td>
+C. <th>
+D. <header>
+Answer: C
+
+23. What does the "action" attribute in HTML forms define?
+A. The script where the form data is sent
+B. The name of the form
+C. The type of form
+D. The target window
+Answer: A
+
+24. What input type allows a user to choose a file?
+A. input type="text"
+B. input type="file"
+C. input type="browse"
+D. input type="upload"
+Answer: B
+
+25. How do you center text in CSS?
+A. align: center;
+B. text-align: center;
+C. center-text: true;
+D. font-align: center;
+Answer: B
+
+26. Which property adds space inside the border of an element?
+A. margin
+B. border-spacing
+C. padding
+D. spacing
+Answer: C
+
+27. Which property adds space outside the border of an element?
+A. padding
+B. margin
+C. border
+D. spacing
+Answer: B
+
+28. What does the box model in CSS consist of?
+A. Only width and height
+B. Margins and borders
+C. Margins, borders, padding, content
+D. Content only
+Answer: C
+
+29. How can you make a font italic using CSS?
+A. font-style: italic;
+B. font-weight: italic;
+C. text-style: italic;
+D. font: italic;
+Answer: A
+
+30. What is the default value of the position property?
+A. static
+B. relative
+C. absolute
+D. fixed
+Answer: A
+
+31. Which pseudo-class is used to style a link when the user hovers over it?
+A. :hover
+B. :focus
+C. :active
+D. :link
+Answer: A
+
+32. Which tag is used to insert a comment in HTML?
+A. // Comment
+B. -- Comment --
+C. <!-- Comment -->
+D. /* Comment */
+Answer: C
+
+33. What is the default display value for a <div> element?
+A. inline
+B. block
+C. inline-block
+D. flex
+Answer: B
+
+34. What CSS property is used to change the color of text?
+A. background-color
+B. color
+C. font-color
+D. text-color
+Answer: B
+
+35. Which property defines the width of an element’s border?
+A. border-width
+B. border-style
+C. border-size
+D. border-length
+Answer: A
+
+36. What does the <form> tag do?
+A. Displays a dropdown menu
+B. Groups HTML elements visually
+C. Defines an interactive form for user input
+D. Adds an image to the page
+Answer: C
+
+37. How do you link an image in HTML?
+A. <a href="url"><img src="image.jpg"></a>
+B. <img src="image.jpg" href="url">
+C. <img href="url" src="image.jpg">
+D. <link src="image.jpg" to="url">
+Answer: A
+
+38. What input type is used for a checkbox?
+A. type="box"
+B. type="checkbox"
+C. type="check"
+D. type="select"
+Answer: B
+
+39. What CSS property specifies the space between lines of text?
+A. spacing
+B. text-spacing
+C. line-height
+D. line-space
+Answer: C
+
+40. What attribute is used to specify the URL of the page the link goes to?
+A. src
+B. href
+C. link
+D. url
+Answer: B
