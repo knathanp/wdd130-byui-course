@@ -1,100 +1,111 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta charset="utf-8" />
-    <title>ICE Challenge: Big Images</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="../../css/prism-light.css" />
-    <link rel="stylesheet" href="../../css/course.css" />
-  </head>
 
-  <body>
-    <div id="content">
-      <header class="headerBanner">
-        <div>
-          <h1><span>WEB</span> Fundamentals</h1>
-          <h2>WDD 130</h2>
-        </div>
-      </header>
-      <main>
-        <h1>ICE Challenge: Big Image Gallery</h1>
-        <hr />
-        <h2><strong>Overview</strong></h2>
-        <ul>
-            <li>Task: Create thumbnail images of an appropriate file size.</li>
-            <li>Purpose: Try using a photo editor to change image file size.</li>
-        </ul>
-        
-        <h2><strong>Instructions</strong></h2>
-        <ol class="bigSteps">
-          <li>
-            <!-- START STEP -->
-            <h2>Open the files</h2>
-            <ul>
-              <li><h3>Download the starter files</h3>
-              Start by downloading the zip file at the top of the page
-              and unzipping it and saving the gallery folder in your <kbd>ice</kbd> folder</li>
-              <li><h3>Open in VS Code</h3>
-              Open the <kbd>gallery</kbd> folder in VS Code, 
-              then locate gallery.html and open to edit.</li>
-            </ul>
-              
-            <!-- END STEP -->
-          </li>
-          
-          <li>
-            <!-- START STEP -->
-            <h2>Test it out</h2>
-            <ul>
-              <li>
+<head>
+  <meta charset="utf-8" />
+  <title>ICE Challenge: Big Images</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../../css/prism-light.css" />
+  <link rel="stylesheet" href="../../css/course.css" />
+</head>
+
+<body>
+  <div id="content">
+    <header class="headerBanner">
+      <div>
+        <h1><span>WEB</span> Fundamentals</h1>
+        <h2>WDD 130</h2>
+      </div>
+    </header>
+    <main>
+      <h1>In Class Exercise (ICE) Challenge: Big Image Gallery</h1>
+      <hr />
+      <h2><strong>Overview</strong></h2>
+      <ul>
+        <li>Task: Create thumbnail images of an appropriate file size.</li>
+        <li>Purpose: Try using a photo editor to change image file size.</li>
+        <li>Expectation: ICE Challenges are designed to be completed
+          in less than an hour. See what you can complete in an hour and then submit it.</li>
+        <li>Extra Credit Opportunity: You can receive bonus points for adding cool, creative, clever features to enhance the challenge </li>
+      </ul>
+
+      <h2><strong>Instructions</strong></h2>
+      <ol class="bigSteps">
+        <li>
+          <!-- START STEP -->
+          <h2>Open the files</h2>
+          <ul>
+            <li>
+              <h3>Download the starter files</h3>
+              Start by downloading the zip file: <a href="../../ice/gallery.zip">Gallery</a>
+              and unzipping it and saving the gallery folder in your <kbd>ice</kbd> folder
+            </li>
+            <li>
+              <h3>Open in VS Code</h3>
+              Open the <kbd>gallery</kbd> folder in VS Code,
+              then locate gallery.html and open to edit.
+            </li>
+          </ul>
+
+          <!-- END STEP -->
+        </li>
+
+        <li>
+          <!-- START STEP -->
+          <h2>Test it out</h2>
+          <ul>
+            <li>
               <h3>Open in a browser</h3>Test the gallery.html file by opening it in a browser like Chrome.
-              Hold the shift key and click the browser's refresh button. 
+              Hold the shift key and click the browser's refresh button.
               What do you notice about how the images load?
-              </li>
-            </ul>
+            </li>
+          </ul>
 
-            
-            <!-- END STEP -->
-          </li>
-          <li>
-            <!-- START STEP -->
-            <h2>Optimize the images</h2>
-            <ul>
-              <li>
+
+          <!-- END STEP -->
+        </li>
+        <li>
+          <!-- START STEP -->
+          <h2>Optimize the images</h2>
+          <ul>
+            <li>
               <h3>Create smaller thumbnail images</h3>
-              Change the image size of the big images using a photo editor like Photoshop 
-              (Adobe Express is available to all byui students) or 
-              an online editor like <a href="https://www.photopea.com/">Photopea</a>.
-              Then save the smaller thumbnail files to the images/small folder.
-              </li>
-              <li>
+              <ol>
+                <li>Change the image size of the big images using a photo editor like Photoshop
+                  (Adobe Express is available to all byui students) or
+                  an online editor like <a href="https://www.photopea.com/">Photopea</a>. The size of the thumbnail should match the size the image is displayed at on the <code>gallery.html</code> page. (Use your browser's developer tools to figure out what size this is).</li>
+                <li>Then save the smaller thumbnail files to the <code>images/small</code> folder.</li>
+              </ol>
+
+            </li>
+            <li>
               <h3>Shrink the file size</h3>
               Optimize the big images using the same photo editor. Maintain the dimensions of the
-              files (4000px by 5980px), but try to shrink the number of bytes it takes to store the images. 
+              files (1950px x 2915px), but try to shrink the number of bytes it takes to store the images.
               Using a different file type is acceptable (ie. png->jpg).
-              Then override the images in the big folder with the optimized images and update the links.
-              </li>
-            </ul>
+              Then overwrite the images in the big folder with the optimized images and update the links.
+            </li>
+          </ul>
 
-            
-            <!-- END STEP -->
-          </li>
-          <li>
-            <!-- START STEP -->
-            <h2>Update the gallery</h2>
-            <ul>
-              <li>
+
+          <!-- END STEP -->
+        </li>
+        <li>
+          <!-- START STEP -->
+          <h2>Update the gallery</h2>
+          <ul>
+            <li>
               <h3>Use the thumbnails</h3>
-              Change the src attribute of each image to point to the small thumbnail 
-              versions of the images. Keep the link to the big images.
-              </li>
-            </ul>
+              Change the <code>src</code> attribute of each image to point to the small thumbnail
+              versions of the images. Keep the link pointing to the big images. The goal is that when you click on the thumbnail image on the <code>gallery.html</code> page, it opens the big image on a new page.
+            </li>
+          </ul>
 
-            
-            <!-- END STEP -->
-          </li>
 
-          <li>
+          <!-- END STEP -->
+        </li>
+
+        <li>
           <!-- START STEP -->
           <h2>Submit</h2>
           <p>Push your changes to Github. Then please submit the following:</p>
@@ -103,16 +114,17 @@
             <li>A screenshot of Windows Explorer or Mac Finder showing your <code>small</code> folder contents. Change your view to show the file sizes before taking the screenshot.</li>
             <li>Create a submission comment with the URL to the page you completed for this ICE challenge.</li>
 
-          <!-- END STEP -->
+            <!-- END STEP -->
 
           </ol>
           <!-- END STEP  -->
         </li>
 
-      </main>
-      <!-- end #article -->
-    </div>
-    <script src="../../js/course.js"></script>
-    <script src="../../js/prism.js"></script>
-  </body>
+    </main>
+    <!-- end #article -->
+  </div>
+  <script src="../../js/course.js"></script>
+  <script src="../../js/prism.js"></script>
+</body>
+
 </html>
